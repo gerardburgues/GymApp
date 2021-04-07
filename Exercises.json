@@ -115,6 +115,11 @@
         "Description": "Sit with your legs extended and your feet flexed. Place your hands on the floor and slightly round your torso. Lift your hips off the floor, hold for 5 seconds, and release. Repeat",
         "Difficulty":["Medium"]   
 
+    },
+    {
+        "Name":"PROVA",
+        "Description": "Prova de modificaci projecte",
+        "Difficulty":["Medium"]   
     }
     
     
