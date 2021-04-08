@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9739B0FE261EFC9100A0EBF5 /* Exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 9739B0FD261EFC9100A0EBF5 /* Exercises.json */; };
+		9739B101261F012400A0EBF5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B100261F012400A0EBF5 /* Exercise.swift */; };
+		9739B115261F0DE400A0EBF5 /* ExercisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */; };
 		97C2D8F4261506E100C3B6E4 /* GymAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C2D8F3261506E100C3B6E4 /* GymAppApp.swift */; };
 		97C2D8F6261506E100C3B6E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C2D8F5261506E100C3B6E4 /* ContentView.swift */; };
 		97C2D8F8261506E400C3B6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C2D8F7261506E400C3B6E4 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		9739B0FD261EFC9100A0EBF5 /* Exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Exercises.json; sourceTree = SOURCE_ROOT; };
+		9739B100261F012400A0EBF5 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListView.swift; sourceTree = "<group>"; };
 		97C2D8F0261506E100C3B6E4 /* GymApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C2D8F3261506E100C3B6E4 /* GymAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppApp.swift; sourceTree = "<group>"; };
 		97C2D8F5261506E100C3B6E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 			children = (
 				97C2D8F3261506E100C3B6E4 /* GymAppApp.swift */,
 				97C2D8F5261506E100C3B6E4 /* ContentView.swift */,
+				9739B100261F012400A0EBF5 /* Exercise.swift */,
 				97C2D8F7261506E400C3B6E4 /* Assets.xcassets */,
 				9739B0FD261EFC9100A0EBF5 /* Exercises.json */,
 				97C2D8FC261506E400C3B6E4 /* Info.plist */,
 				97C2D8F9261506E400C3B6E4 /* Preview Content */,
+				9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */,
 			);
 			path = GymApp;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C2D8F6261506E100C3B6E4 /* ContentView.swift in Sources */,
+				9739B101261F012400A0EBF5 /* Exercise.swift in Sources */,
+				9739B115261F0DE400A0EBF5 /* ExercisesListView.swift in Sources */,
 				97C2D8F4261506E100C3B6E4 /* GymAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
