@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BD0F8F6262DCF1B00CAD97F /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */; };
 		9739B0FE261EFC9100A0EBF5 /* Exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 9739B0FD261EFC9100A0EBF5 /* Exercises.json */; };
 		9739B101261F012400A0EBF5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B100261F012400A0EBF5 /* Exercise.swift */; };
 		9739B115261F0DE400A0EBF5 /* ExercisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		9739B0FD261EFC9100A0EBF5 /* Exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Exercises.json; sourceTree = SOURCE_ROOT; };
 		9739B100261F012400A0EBF5 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				97C2D8FC261506E400C3B6E4 /* Info.plist */,
 				97C2D8F9261506E400C3B6E4 /* Preview Content */,
 				9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */,
+				2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */,
 			);
 			path = GymApp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				97C2D8F6261506E100C3B6E4 /* ContentView.swift in Sources */,
 				9739B101261F012400A0EBF5 /* Exercise.swift in Sources */,
+				2BD0F8F6262DCF1B00CAD97F /* SplashScreen.swift in Sources */,
 				9739B115261F0DE400A0EBF5 /* ExercisesListView.swift in Sources */,
 				97C2D8F4261506E100C3B6E4 /* GymAppApp.swift in Sources */,
 			);
