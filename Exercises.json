@@ -1,146 +1,146 @@
 [
     {   "id":1,
-        "Name":"Lunges",
-        "Description": "Start by standing with your feet shoulder-width apart and arms down at your sides. Take a step forward with your right leg and bend your right knee as you do so, stopping when your thigh is parallel to the ground. Ensure that your right knee doesn’t extend past your right foot. Push up off your right foot and return to the starting position. Repeat with your left leg. This is one rep. ",
-        "Difficulty":["Medium", "Hard"]
+        "name":"Lunges",
+        "description": "Start by standing with your feet shoulder-width apart and arms down at your sides. Take a step forward with your right leg and bend your right knee as you do so, stopping when your thigh is parallel to the ground. Ensure that your right knee doesn’t extend past your right foot. Push up off your right foot and return to the starting position. Repeat with your left leg. This is one rep. ",
+        "difficulty":["Medium", "Hard"]
 
     },
     {
         "id":2,
-        "Name":"Pushups",
-        "Description": "Start in a plank position. Your core should be tight, shoulders pulled down and back, and your neck neutral.Bend your elbows and begin to lower your body down to the floor. When your chest grazes it, extend your elbows and return to the start. Focus on keeping your elbows close to your body during the movement. ",
-        "Difficulty":["Medium"]
+        "name":"Pushups",
+        "description": "Start in a plank position. Your core should be tight, shoulders pulled down and back, and your neck neutral.Bend your elbows and begin to lower your body down to the floor. When your chest grazes it, extend your elbows and return to the start. Focus on keeping your elbows close to your body during the movement. ",
+        "difficulty":["Medium"]
 
     },
     {
         "id":3,
-        "Name":"Squats",
-        "Description": "Start by standing straight, with your feet slightly wider than shoulder-width apart, and your arms at your sides. Brace your core and, keeping your chest and chin up, push your hips back and bend your knees as if you’re going to sit in a chair. Ensuring your knees don’t bow inward or outward, drop down until your thighs are parallel to the ground, bringing your arms out in front of you in a comfortable position. Pause for one second, then extend your legs and return to the starting position.",
-        "Difficulty":["Easy" ,"Medium"]
+        "name":"Squats",
+        "description": "Start by standing straight, with your feet slightly wider than shoulder-width apart, and your arms at your sides. Brace your core and, keeping your chest and chin up, push your hips back and bend your knees as if you’re going to sit in a chair. Ensuring your knees don’t bow inward or outward, drop down until your thighs are parallel to the ground, bringing your arms out in front of you in a comfortable position. Pause for one second, then extend your legs and return to the starting position.",
+        "difficulty":["Easy" ,"Medium"]
 
     },
     {
         "id":4,
-        "Name":"Burpees",
-        "Description": "Start by standing upright with your feet shoulder-width apart and your arms down at your sides. With your hands out in front of you, start to squat down. When your hands reach the ground, pop your legs straight back into a pushup position. Jump your feet up to your palms by hinging at the waist. Get your feet as close to your hands as you can get, landing them outside your hands if necessary. Stand up straight, bringing your arms above your head and jump.",
-        "Difficulty":["Medium","Hard"]
+        "name":"Burpees",
+        "description": "Start by standing upright with your feet shoulder-width apart and your arms down at your sides. With your hands out in front of you, start to squat down. When your hands reach the ground, pop your legs straight back into a pushup position. Jump your feet up to your palms by hinging at the waist. Get your feet as close to your hands as you can get, landing them outside your hands if necessary. Stand up straight, bringing your arms above your head and jump.",
+        "difficulty":["Medium","Hard"]
 
     },
     {
         "id":5,
-        "Name":"Side planks",
-        "Description": "Lie on your right side with your left leg and foot stacked on top of your right leg and foot. Prop your upper body up by placing your right forearm on the ground, elbow directly under your shoulder. Contract your core to stiffen your spine and lift your hips and knees off the ground, forming a straight line with your body.",
-        "Difficulty":["Easy","Medium"]
+        "name":"Side planks",
+        "description": "Lie on your right side with your left leg and foot stacked on top of your right leg and foot. Prop your upper body up by placing your right forearm on the ground, elbow directly under your shoulder. Contract your core to stiffen your spine and lift your hips and knees off the ground, forming a straight line with your body.",
+        "difficulty":["Easy","Medium"]
 
     },
     {
         "id":6,
-        "Name":"Glute bridge",
-        "Description": "Start by lying on the floor with your knees bent, feet flat on the ground, and arms straight at your sides with your palms facing down. Pushing through your heels, raise your hips off the ground by squeezing your core, glutes, and hamstrings. Your upper back and shoulders should still be in contact with the ground, and your core down to your knees should form a straight line. Pause 1–2 seconds at the top and return to the starting position",
-        "Difficulty":["Easy"]
+        "name":"Glute bridge",
+        "description": "Start by lying on the floor with your knees bent, feet flat on the ground, and arms straight at your sides with your palms facing down. Pushing through your heels, raise your hips off the ground by squeezing your core, glutes, and hamstrings. Your upper back and shoulders should still be in contact with the ground, and your core down to your knees should form a straight line. Pause 1–2 seconds at the top and return to the starting position",
+        "difficulty":["Easy"]
 
     },
     {
         "id":7,
-        "Name":"Arm circles",
-        "Description": "Stand with your arms extended by your sides, perpendicular to your torso. Slowly make clockwise circles about 1 foot in diameter for 20—30 seconds. Then reverse the movement, going counterclockwise.",
-        "Difficulty":["Easy"]
+        "name":"Arm circles",
+        "description": "Stand with your arms extended by your sides, perpendicular to your torso. Slowly make clockwise circles about 1 foot in diameter for 20—30 seconds. Then reverse the movement, going counterclockwise.",
+        "difficulty":["Easy"]
 
     },
     {
         "id":8,
-        "Name":"Plank",
-        "Description": "Lie facedown with your forearms on the floor and your hands clasped. Extend your legs behind you and rise up onto your toes. Keeping your back straight, tighten your core and hold the position for 30—60 seconds (or as long as you can hang).",
-        "Difficulty":["Easy"]
+        "name":"Plank",
+        "description": "Lie facedown with your forearms on the floor and your hands clasped. Extend your legs behind you and rise up onto your toes. Keeping your back straight, tighten your core and hold the position for 30—60 seconds (or as long as you can hang).",
+        "difficulty":["Easy"]
     },
     {
         "id":9,
-        "Name":"Mountain climber",
-        "Description": "Start on your hands and knees. Bring your left foot forward to directly under your chest while straightening your right leg. Keeping your hands on the floor and your core tight, jump and switch legs. Your left leg should now be extended behind you, with your right knee forward.",
-        "Difficulty":["Medium"]
+        "name":"Mountain climber",
+        "description": "Start on your hands and knees. Bring your left foot forward to directly under your chest while straightening your right leg. Keeping your hands on the floor and your core tight, jump and switch legs. Your left leg should now be extended behind you, with your right knee forward.",
+        "difficulty":["Medium"]
     },
     {
         "id":10,
-        "Name":"Prone walkout",
-        "Description": "Slowly walk your hands forward, staying on your toes but not moving them forward. Next, gradually walk your hands backward to the starting position, maintaining stability and balance.",
-        "Difficulty":["Medium","Hard"]
+        "name":"Prone walkout",
+        "description": "Slowly walk your hands forward, staying on your toes but not moving them forward. Next, gradually walk your hands backward to the starting position, maintaining stability and balance.",
+        "difficulty":["Medium","Hard"]
     },
     {
         "id":11,
-        "Name":"Plank to Push-up",
-        "Description": "Start in a plank position. Place one hand at a time on the floor to lift into a push-up position with your back straight and core engaged. Move one arm at a time back into the plank position (forearms on the floor). Repeat, alternating your arm that makes the first move.",
-        "Difficulty":["Medium","Hard"]
+        "name":"Plank to Push-up",
+        "description": "Start in a plank position. Place one hand at a time on the floor to lift into a push-up position with your back straight and core engaged. Move one arm at a time back into the plank position (forearms on the floor). Repeat, alternating your arm that makes the first move.",
+        "difficulty":["Medium","Hard"]
     },
     {
         "id":12,
-        "Name":"Wall sit",
-        "Description": "Slowly slide your back down a wall until your thighs are parallel to the floor. Make sure your knees are directly above your ankles and keep your back straight.",
-        "Difficulty":["Easy","Medium"]
+        "name":"Wall sit",
+        "description": "Slowly slide your back down a wall until your thighs are parallel to the floor. Make sure your knees are directly above your ankles and keep your back straight.",
+        "difficulty":["Easy","Medium"]
 
     },
     {
         "id":13,
-        "Name":"Heavy Wall sit",
-        "Description": "Slowly slide your back down a wall until your thighs are parallel to the floor. Make sure your knees are directly above your ankles and keep your back straight. Put some weight on your legs",
-        "Difficulty":["Medium", "Hard"]
+        "name":"Heavy Wall sit",
+        "description": "Slowly slide your back down a wall until your thighs are parallel to the floor. Make sure your knees are directly above your ankles and keep your back straight. Put some weight on your legs",
+        "difficulty":["Medium", "Hard"]
 
     },
     {
         "id":14,
-        "Name":"Single Wall sit",
-        "Description": "Slowly slide your back down a wall until your thighs are parallel to the floor. Make sure your knees are directly above your ankles and keep your back straight. Do a single leg at a time",
-        "Difficulty":["Hard"]
+        "name":"Single Wall sit",
+        "description": "Slowly slide your back down a wall until your thighs are parallel to the floor. Make sure your knees are directly above your ankles and keep your back straight. Do a single leg at a time",
+        "difficulty":["Hard"]
 
     },
     {
         "id":15,
-        "Name":"Pistol Squat",
-        "Description": "Stand holding your arms straight out in front of your body. Raise your right leg, flexing your right ankle and pushing your hips back. Lower your body while keeping your right leg raised. Hold, then return to standing",
-        "Difficulty":["Hard"]
+        "name":"Pistol Squat",
+        "description": "Stand holding your arms straight out in front of your body. Raise your right leg, flexing your right ankle and pushing your hips back. Lower your body while keeping your right leg raised. Hold, then return to standing",
+        "difficulty":["Hard"]
 
     },
     {
         "id":16,
-        "Name":"Single-leg deadlift",
-        "Description": "Start in a standing position with your feet together. Lift your right leg slightly. Lower your arms and torso while raising your right leg behind you. Keep your left knee slightly bent and reach your arms as close to the floor as possible. Raise your torso while lowering your right leg. Switch legs.",
-        "Difficulty":["Easy","Medium"]
+        "name":"Single-leg deadlift",
+        "description": "Start in a standing position with your feet together. Lift your right leg slightly. Lower your arms and torso while raising your right leg behind you. Keep your left knee slightly bent and reach your arms as close to the floor as possible. Raise your torso while lowering your right leg. Switch legs.",
+        "difficulty":["Easy","Medium"]
     },
     {
         "id":17,
-        "Name":"Single-leg deadlift weight",
-        "Description": "Start in a standing position with your feet together. Lift your right leg slightly. Lower your arms and torso while raising your right leg behind you. Keep your left knee slightly bent and reach your arms as close to the floor as possible. Raise your torso while lowering your right leg. Switch legs. Hand some kind of weight in your hands to make the exercise harder",
-        "Difficulty":["Easy","Medium"]
+        "name":"Single-leg deadlift weight",
+        "description": "Start in a standing position with your feet together. Lift your right leg slightly. Lower your arms and torso while raising your right leg behind you. Keep your left knee slightly bent and reach your arms as close to the floor as possible. Raise your torso while lowering your right leg. Switch legs. Hand some kind of weight in your hands to make the exercise harder",
+        "difficulty":["Easy","Medium"]
     },
     {
         "id":18,
-        "Name":"Calf raise",
-        "Description": "From a standing position, slowly rise up on your toes, keeping your knees straight and heels off the floor. Hold briefly, then come back down. And repeat. Try standing on something elevated (like a step) to achieve a wider range of motion.",
-        "Difficulty":["Easy","Medium"]
+        "name":"Calf raise",
+        "description": "From a standing position, slowly rise up on your toes, keeping your knees straight and heels off the floor. Hold briefly, then come back down. And repeat. Try standing on something elevated (like a step) to achieve a wider range of motion.",
+        "difficulty":["Easy","Medium"]
     },
     {
         "id":19,
-        "Name":"Contralateral limb raise",
-        "Description": "Lie facedown with your arms outstretched and your palms facing each other. Slowly lift one arm a few inches off the floor, keeping it straight without rotating your shoulders and keeping your head and torso still. Hold the position, then lower your arm back down. Repeat on the other side. For an extra challenge, lift your opposite leg a few inches off the floor at the same time.",
-        "Difficulty":["Easy","Medium"]
+        "name":"Contralateral limb raise",
+        "description": "Lie facedown with your arms outstretched and your palms facing each other. Slowly lift one arm a few inches off the floor, keeping it straight without rotating your shoulders and keeping your head and torso still. Hold the position, then lower your arm back down. Repeat on the other side. For an extra challenge, lift your opposite leg a few inches off the floor at the same time.",
+        "difficulty":["Easy","Medium"]
     },
     {
         "id":20,
-        "Name":"Diamond push-up",
-        "Description": "Get into a push-up position with diamond-shaped hands, so that your thumbs and index fingers touch. Then, do push-ups! This hand position will give those triceps some extra (burning) love.",
-        "Difficulty":["Medium", "Hard"]   
+        "name":"Diamond push-up",
+        "description": "Get into a push-up position with diamond-shaped hands, so that your thumbs and index fingers touch. Then, do push-ups! This hand position will give those triceps some extra (burning) love.",
+        "difficulty":["Medium", "Hard"]
     },
     {
         "id":21,
-        "Name":"L seat",
-        "Description": "Sit with your legs extended and your feet flexed. Place your hands on the floor and slightly round your torso. Lift your hips off the floor, hold for 5 seconds, and release. Repeat",
-        "Difficulty":["Medium"]   
+        "name":"L seat",
+        "description": "Sit with your legs extended and your feet flexed. Place your hands on the floor and slightly round your torso. Lift your hips off the floor, hold for 5 seconds, and release. Repeat",
+        "difficulty":["Medium"]
 
     },
     {
         "id":22,
-        "Name":"PROVA",
-        "Description": "Prova de modificaci projecte",
-        "Difficulty":["Medium"]   
+        "name":"PROVA",
+        "description": "Prova de modificaci projecte",
+        "difficulty":["Medium"]
     }
     
     

@@ -14,9 +14,9 @@ struct GymAppApp: App {
         WindowGroup {
             SplashScreen()
         
-            /*NavigationView {
-                ExercisesListView()
-            }*/
+            NavigationView {
+                ContentView()
+            }
         
         }
     }

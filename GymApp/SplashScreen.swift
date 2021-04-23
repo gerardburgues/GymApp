@@ -16,7 +16,7 @@ struct SplashScreen: View {
         ZStack {
             ContentView()
             ZStack {
-                Image("bg")
+                Image("BG")
                 
                 VStack {
                     Text("PERSONAL")

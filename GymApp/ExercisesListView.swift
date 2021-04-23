@@ -17,14 +17,13 @@ struct ExercisesListView: View {
         exercises = try! JSONDecoder().decode([Exercise].self, from : data)
         
     }
+    
     //let exercise: Exercise
     var body: some View {
-        List(exercises, id: \.id ){tip in
-            
-            Text(tip.name)
-            
-            
-        }
+       List(exercises, id: \.id ){tip in
+          Text(tip.name)
+       }
+        Text("Hello---")
     }
 }
 
