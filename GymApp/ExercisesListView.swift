@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ExercisesListView: View {
     let exercises:[Exercise]
+    
     init(){
         
         let url = Bundle.main.url(forResource: "Exercises",
@@ -20,10 +21,29 @@ struct ExercisesListView: View {
     
     //let exercise: Exercise
     var body: some View {
-       List(exercises, id: \.id ){tip in
-          Text(tip.name)
-       }
-        Text("Hello---")
+ 
+            VStack{
+           
+            Text("LIST OF EXERCISES")
+                .font(.title)
+                .multilineTextAlignment(.center)
+                .foregroundColor(.white)
+                .frame(minWidth: 0, maxWidth: 300,minHeight: 50)
+                .background(Color.gray)
+                .cornerRadius(10)
+                .font(.title)
+                .padding(.top)
+             
+                    List(exercises, id: \.id ){tip in
+                     
+                            Text(tip.name)
+               
+                    }.frame(width: 400, height: 700, alignment: .leading)
+       
+            
+         
+        }
+        
     }
 }
 

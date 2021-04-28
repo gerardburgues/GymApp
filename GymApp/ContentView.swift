@@ -46,31 +46,50 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         NavigationView {
+            
             VStack {
+              Spacer()
                 Text("PERSONAL FITNESS APP")
                           .font(.largeTitle)
                           .fontWeight(.bold)
                               .multilineTextAlignment(.center)
+          
+                    
                 
                                 .padding()
-                
+                NavigationLink(
+                    destination: LevelsView()){
                            Text("START")
                                .bold()
                                .font(.title)
                                .padding(.all)
-                         
+                            .foregroundColor(.black)
+                }
               
-                NavigationLink(destination: ExercisesListView()) {
+                NavigationLink(destination:ExercisesListView()) {
                     Text("List of Exercises")
-                    .frame(minWidth: 0, maxWidth: 300)
-                    .padding()
-                    .foregroundColor(.white)
-                    .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
-                    .cornerRadius(40)
-                    .font(.title)
-            }
-          }
+                        .fontWeight(.bold)
+                        .frame(minWidth: 0, maxWidth: 300)
+                        .padding()
+                        .foregroundColor(.black)
+                        .font(.largeTitle)
+                        .clipShape(Rectangle())
+                }
+            
+                Spacer()
+            }.background(Image("image"))
+            .scaledToFill()
+            .clipped()
+            .edgesIgnoringSafeArea([.top])
+            
+        
+
+            // A UIImageView with async loading
+         
+               
+
         }
+        
     }
 }
 
