@@ -58,7 +58,7 @@ struct ContentView : View {
                 
                                 .padding()
                 NavigationLink(
-                    destination: LevelsView()){
+                    destination: Levels2View()){
                            Text("START")
                                .bold()
                                .font(.title)
@@ -79,7 +79,7 @@ struct ContentView : View {
                 Spacer()
             }.background(Image("image"))
             .scaledToFill()
-            .clipped()
+            //.clipped()
             .edgesIgnoringSafeArea([.top])
             
         

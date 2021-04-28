@@ -32,7 +32,7 @@ struct ExercisesListView: View {
                 .background(Color.gray)
                 .cornerRadius(10)
                 .font(.title)
-                .padding(.top)
+         
              
                     List(exercises, id: \.id ){tip in
                      

@@ -12,11 +12,14 @@ struct GymAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SplashScreen()
+           // SplashScreen()
         
-            NavigationView {
+ 
                 ContentView()
-            }
+                //LevelsView()
+                //TimeView()
+                //ExercisesListView()
+            
         
         }
     }
