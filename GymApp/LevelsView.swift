@@ -13,8 +13,8 @@ struct LevelsView: View {
         NavigationView{
             
             VStack{
-            VStack{
-     
+                VStack{
+                    
                     Text("How hard you wanna work out")
                         .font(.title)
                         .fontWeight(.black)
@@ -26,13 +26,13 @@ struct LevelsView: View {
                         .background(Color.blue)
                         .cornerRadius(22)
                         .font(.title)
-         
-                
-            }
+                    
+                    
+                }
                 Spacer()
-                   
+                
                 NavigationLink(
-                    destination: TimeView()){
+                    destination:TimeViewEASY()){
                     
                     Text("EASY LEVEL")
                         .font(.title)
@@ -47,7 +47,7 @@ struct LevelsView: View {
                 Spacer()
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 NavigationLink(
-                    destination: TimeView()){
+                    destination: TimeViewMedium()){
                     Text("MEDIUM LEVEL")
                         .font(.title)
                         .multilineTextAlignment(.center)
@@ -60,7 +60,7 @@ struct LevelsView: View {
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 NavigationLink(
                     
-                    destination: TimeView()){
+                    destination: TimeViewHard()){
                     Text("HARD LEVEL")
                         .font(.title)
                         .multilineTextAlignment(.center)

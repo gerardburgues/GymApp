@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import AVKit
 struct ExercisesListView: View {
     let exercises:[Exercise]
     
@@ -21,8 +21,11 @@ struct ExercisesListView: View {
     
     //let exercise: Exercise
     var body: some View {
- 
-            VStack{
+        
+        
+  
+         
+        VStack{
            
             Text("LIST OF EXERCISES")
                 .font(.title)
@@ -32,24 +35,55 @@ struct ExercisesListView: View {
                 .background(Color.gray)
                 .cornerRadius(10)
                 .font(.title)
-         
-             
-                    List(exercises, id: \.id ){tip in
-                     
-                            Text(tip.name)
-               
-                    }.frame(width: 400, height: 700, alignment: .leading)
-       
+            
             
          
-        }
+            List(exercises, id: \.id ){tip in
+                
+                VStack(alignment: .center) {
+                    
+                    Text(tip.name)
+                        .font(.system(.title, design: .rounded))
+                        .fontWeight(.black)
+                        .lineLimit(3)
+                        .padding(.bottom, 40.0)
+                
+                    Image(tip.image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(5)
+                        .padding(.bottom,40.0)
+                    
+                    
+                    
+                    Text(tip.description)
+                        .font(.subheadline)
+                        .lineSpacing(10.0)
+                        .foregroundColor(.secondary)
+                   Spacer()
+                    
+                }
+                .frame(height: 655.0)
+            }
+                
         
+       
+        }
     }
 }
 
 struct ExercisesListView_Previews: PreviewProvider {
     static var previews: some View {
-
-        ExercisesListView()
+        
+        Group {
+            ExercisesListView()
+            ExercisesListView()
+        }
     }
 }
+
+
+//                                VideoPlayer(player: AVPlayer(url: URL(string:"https://cdn.videvo.net/videvo_files/video/free/2018-09/small_watermarked/180419_Boxing_07_04_preview.mp4")!))
+//                                    .frame(width: 400, height: 400, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//
+

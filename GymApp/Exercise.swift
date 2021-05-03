@@ -15,7 +15,8 @@ struct Exercise: Decodable{
     let name: String
     let description: String
     let difficulty: [String]?
+    let image:String
     
-    static let example = Exercise(id:1, name:"Flexions",description: "Flexions amunt i abaix", difficulty: ["Medium"])
+    static let example = Exercise(id:1, name:"Flexions",description: "Flexions amunt i abaix", difficulty: ["Medium"],image:"BG")
 }
 

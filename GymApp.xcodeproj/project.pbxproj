@@ -12,12 +12,14 @@
 		9739B101261F012400A0EBF5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B100261F012400A0EBF5 /* Exercise.swift */; };
 		9739B115261F0DE400A0EBF5 /* ExercisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */; };
 		97B1212F2639CEB300CA58C8 /* Levels2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B1212E2639CEB300CA58C8 /* Levels2View.swift */; };
+		97B5CE83263C40A400707068 /* TimeViewMedium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B5CE82263C40A400707068 /* TimeViewMedium.swift */; };
+		97B5CE86263C40F200707068 /* TimeViewHard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B5CE85263C40F200707068 /* TimeViewHard.swift */; };
 		97C2D8F4261506E100C3B6E4 /* GymAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C2D8F3261506E100C3B6E4 /* GymAppApp.swift */; };
 		97C2D8F6261506E100C3B6E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C2D8F5261506E100C3B6E4 /* ContentView.swift */; };
 		97C2D8F8261506E400C3B6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C2D8F7261506E400C3B6E4 /* Assets.xcassets */; };
 		97C2D8FB261506E400C3B6E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C2D8FA261506E400C3B6E4 /* Preview Assets.xcassets */; };
 		97F907D426394DF400DDCE36 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F907D326394DF400DDCE36 /* LevelsView.swift */; };
-		97F907D72639629A00DDCE36 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F907D62639629A00DDCE36 /* TimeView.swift */; };
+		97F907D72639629A00DDCE36 /* TimeViewEASY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F907D62639629A00DDCE36 /* TimeViewEASY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9739B100261F012400A0EBF5 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListView.swift; sourceTree = "<group>"; };
 		97B1212E2639CEB300CA58C8 /* Levels2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels2View.swift; sourceTree = "<group>"; };
+		97B5CE82263C40A400707068 /* TimeViewMedium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewMedium.swift; sourceTree = "<group>"; };
+		97B5CE85263C40F200707068 /* TimeViewHard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewHard.swift; sourceTree = "<group>"; };
 		97C2D8F0261506E100C3B6E4 /* GymApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C2D8F3261506E100C3B6E4 /* GymAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppApp.swift; sourceTree = "<group>"; };
 		97C2D8F5261506E100C3B6E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,7 +37,7 @@
 		97C2D8FA261506E400C3B6E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97C2D8FC261506E400C3B6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F907D326394DF400DDCE36 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
-		97F907D62639629A00DDCE36 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		97F907D62639629A00DDCE36 /* TimeViewEASY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewEASY.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +80,10 @@
 				9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */,
 				2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */,
 				97F907D326394DF400DDCE36 /* LevelsView.swift */,
-				97F907D62639629A00DDCE36 /* TimeView.swift */,
+				97F907D62639629A00DDCE36 /* TimeViewEASY.swift */,
 				97B1212E2639CEB300CA58C8 /* Levels2View.swift */,
+				97B5CE82263C40A400707068 /* TimeViewMedium.swift */,
+				97B5CE85263C40F200707068 /* TimeViewHard.swift */,
 			);
 			path = GymApp;
 			sourceTree = "<group>";
@@ -160,8 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B5CE86263C40F200707068 /* TimeViewHard.swift in Sources */,
 				97C2D8F6261506E100C3B6E4 /* ContentView.swift in Sources */,
-				97F907D72639629A00DDCE36 /* TimeView.swift in Sources */,
+				97B5CE83263C40A400707068 /* TimeViewMedium.swift in Sources */,
+				97F907D72639629A00DDCE36 /* TimeViewEASY.swift in Sources */,
 				97F907D426394DF400DDCE36 /* LevelsView.swift in Sources */,
 				9739B101261F012400A0EBF5 /* Exercise.swift in Sources */,
 				97B1212F2639CEB300CA58C8 /* Levels2View.swift in Sources */,
