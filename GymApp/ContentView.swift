@@ -24,8 +24,7 @@ struct ContentView : View {
                     
                 
                                 .padding()
-                NavigationLink(
-                    destination: Levels2View()){
+                NavigationLink(destination: LevelsView()){
                            Text("START")
                                .bold()
                                .font(.title)

@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2BD0F8F6262DCF1B00CAD97F /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */; };
+		61DFC2C5F715F0DC1E930371 /* Pods_GymApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6BC6C7F3BAE0F3BE650C08 /* Pods_GymApp.framework */; };
+		972CEE4F2647ED5E0073EBBE /* ListExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972CEE4E2647ED5E0073EBBE /* ListExerciseModel.swift */; };
+		972CEE70264810F10073EBBE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 972CEE6F264810F10073EBBE /* GoogleService-Info.plist */; };
 		9739B0FE261EFC9100A0EBF5 /* Exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 9739B0FD261EFC9100A0EBF5 /* Exercises.json */; };
 		9739B101261F012400A0EBF5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B100261F012400A0EBF5 /* Exercise.swift */; };
 		9739B115261F0DE400A0EBF5 /* ExercisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */; };
@@ -23,7 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05B856D60E8ED8F38BCD1F64 /* Pods-GymApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymApp.release.xcconfig"; path = "Target Support Files/Pods-GymApp/Pods-GymApp.release.xcconfig"; sourceTree = "<group>"; };
+		0D6BC6C7F3BAE0F3BE650C08 /* Pods_GymApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		6F013BBB0C76311FCF542BB9 /* Pods-GymApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymApp.debug.xcconfig"; path = "Target Support Files/Pods-GymApp/Pods-GymApp.debug.xcconfig"; sourceTree = "<group>"; };
+		972CEE4E2647ED5E0073EBBE /* ListExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExerciseModel.swift; sourceTree = "<group>"; };
+		972CEE6F264810F10073EBBE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9739B0FD261EFC9100A0EBF5 /* Exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Exercises.json; sourceTree = SOURCE_ROOT; };
 		9739B100261F012400A0EBF5 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListView.swift; sourceTree = "<group>"; };
@@ -45,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61DFC2C5F715F0DC1E930371 /* Pods_GymApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0D85C0E84CC8D9F0395D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D6BC6C7F3BAE0F3BE650C08 /* Pods_GymApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA0FE85CB8D9A80D5A9F376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F013BBB0C76311FCF542BB9 /* Pods-GymApp.debug.xcconfig */,
+				05B856D60E8ED8F38BCD1F64 /* Pods-GymApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		97C2D8E7261506E100C3B6E4 = {
 			isa = PBXGroup;
 			children = (
 				97C2D8F2261506E100C3B6E4 /* GymApp */,
 				97C2D8F1261506E100C3B6E4 /* Products */,
+				7DA0FE85CB8D9A80D5A9F376 /* Pods */,
+				0C0D85C0E84CC8D9F0395D45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,20 +98,22 @@
 		97C2D8F2261506E100C3B6E4 /* GymApp */ = {
 			isa = PBXGroup;
 			children = (
-				97C2D8F3261506E100C3B6E4 /* GymAppApp.swift */,
-				97C2D8F5261506E100C3B6E4 /* ContentView.swift */,
 				9739B100261F012400A0EBF5 /* Exercise.swift */,
-				97C2D8F7261506E400C3B6E4 /* Assets.xcassets */,
-				9739B0FD261EFC9100A0EBF5 /* Exercises.json */,
-				97C2D8FC261506E400C3B6E4 /* Info.plist */,
-				97C2D8F9261506E400C3B6E4 /* Preview Content */,
+				97C2D8F5261506E100C3B6E4 /* ContentView.swift */,
 				9739B114261F0DE400A0EBF5 /* ExercisesListView.swift */,
-				2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */,
 				97F907D326394DF400DDCE36 /* LevelsView.swift */,
 				97F907D62639629A00DDCE36 /* TimeViewEASY.swift */,
 				97B1212E2639CEB300CA58C8 /* Levels2View.swift */,
 				97B5CE82263C40A400707068 /* TimeViewMedium.swift */,
 				97B5CE85263C40F200707068 /* TimeViewHard.swift */,
+				97C2D8F3261506E100C3B6E4 /* GymAppApp.swift */,
+				97C2D8F7261506E400C3B6E4 /* Assets.xcassets */,
+				9739B0FD261EFC9100A0EBF5 /* Exercises.json */,
+				97C2D8FC261506E400C3B6E4 /* Info.plist */,
+				972CEE6F264810F10073EBBE /* GoogleService-Info.plist */,
+				2BD0F8F5262DCF1B00CAD97F /* SplashScreen.swift */,
+				97C2D8F9261506E400C3B6E4 /* Preview Content */,
+				972CEE4E2647ED5E0073EBBE /* ListExerciseModel.swift */,
 			);
 			path = GymApp;
 			sourceTree = "<group>";
@@ -103,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C2D8FF261506E400C3B6E4 /* Build configuration list for PBXNativeTarget "GymApp" */;
 			buildPhases = (
+				CE319103D643DB2D2695B594 /* [CP] Check Pods Manifest.lock */,
 				97C2D8EC261506E100C3B6E4 /* Sources */,
 				97C2D8ED261506E100C3B6E4 /* Frameworks */,
 				97C2D8EE261506E100C3B6E4 /* Resources */,
+				22F8AD1840D7F7C74D19907F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,10 +188,53 @@
 				9739B0FE261EFC9100A0EBF5 /* Exercises.json in Resources */,
 				97C2D8FB261506E400C3B6E4 /* Preview Assets.xcassets in Resources */,
 				97C2D8F8261506E400C3B6E4 /* Assets.xcassets in Resources */,
+				972CEE70264810F10073EBBE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F8AD1840D7F7C74D19907F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymApp/Pods-GymApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymApp/Pods-GymApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymApp/Pods-GymApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE319103D643DB2D2695B594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		97C2D8EC261506E100C3B6E4 /* Sources */ = {
@@ -170,6 +245,7 @@
 				97C2D8F6261506E100C3B6E4 /* ContentView.swift in Sources */,
 				97B5CE83263C40A400707068 /* TimeViewMedium.swift in Sources */,
 				97F907D72639629A00DDCE36 /* TimeViewEASY.swift in Sources */,
+				972CEE4F2647ED5E0073EBBE /* ListExerciseModel.swift in Sources */,
 				97F907D426394DF400DDCE36 /* LevelsView.swift in Sources */,
 				9739B101261F012400A0EBF5 /* Exercise.swift in Sources */,
 				97B1212F2639CEB300CA58C8 /* Levels2View.swift in Sources */,
@@ -300,6 +376,7 @@
 		};
 		97C2D900261506E400C3B6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F013BBB0C76311FCF542BB9 /* Pods-GymApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +399,7 @@
 		};
 		97C2D901261506E400C3B6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B856D60E8ED8F38BCD1F64 /* Pods-GymApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

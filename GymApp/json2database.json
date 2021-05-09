@@ -1,4 +1,11 @@
 
+//
+//  json2db.swift
+//  GymApp
+//
+//  Created by Gerard Burgués Llavall on 9/5/21.
+//
+let str = """
 [
     {   "id":1,
         "name":"Lunges",
@@ -153,7 +160,7 @@
     {
         "id":21,
         "name":"L seat",
-        "description": "c",
+        "description": "Sit with your legs extended and your feet flexed. Place your hands on the floor and slightly round your torso. Lift your hips off the floor, hold for 5 seconds, and release. Repeat",
         "difficulty":["Medium"],
         "image":"L_seat"
 
@@ -162,3 +169,14 @@
     
     
 ]
+"""
+
+do {
+    let json = try JSONSerialization.jsonObject(with:str.data(using: .utf8), options: []) as! [[String: Any]]
+    for var i in 0...json.count - 1
+    {
+      database.collection("exercicis").document().setData(json[i])
+    }
+} catch  {
+    print(error)
+}
