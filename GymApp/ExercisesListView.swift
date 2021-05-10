@@ -7,11 +7,13 @@
 
 import SwiftUI
 import FirebaseDatabase
+
 struct ExercisesListView: View {
     @ObservedObject private var viewModel = ListExerciseViewModel()
     
     //let exercise: Exercise
     var body: some View {
+        let _ = print("Size \(viewModel.exerc.count)")
         
         VStack{
             
@@ -26,7 +28,7 @@ struct ExercisesListView: View {
             
             
             
-            List(viewModel.exerc ){tip in
+            List(viewModel.exerc){tip in
                 
               
                 VStack(alignment: .center) {
