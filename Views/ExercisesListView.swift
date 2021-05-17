@@ -12,7 +12,9 @@ struct ExercisesListView: View {
     @ObservedObject private var viewModel = ListExerciseViewModel()
     @State var searchExercise = ""
     @State private var isEditing = false
+   
     //let exercise: Exercise
+ 
     var body: some View {
        // let _ = print("Size \(viewModel.exerc.count)")
         
@@ -61,6 +63,20 @@ struct ExercisesListView: View {
                         .fontWeight(.black)
                         .lineLimit(3)
                         .padding(.bottom, 40.0)
+                    NavigationLink(destination: StartFromListView(exercise:tip)){
+                        Text("Start this exercise")
+                            .font(.title2)
+                            .fontWeight(.black)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .frame(minWidth: 0, maxWidth: (UIScreen.main.bounds.width),minHeight: 50)
+                            .background(Color.purple)
+                            .cornerRadius(22)
+                            .font(.title)
+                    }
+                   
+        
                     
                     Image(tip.image)
                         .resizable()
@@ -78,8 +94,10 @@ struct ExercisesListView: View {
                     
                 }
                 .frame(height: 655.0)
+                
             }
             .onAppear(){self.viewModel.fetchData()}
+         
             
             
             
