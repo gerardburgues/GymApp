@@ -26,9 +26,8 @@ struct TimeViewHard: View {
             
             Spacer()
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            //               NavigationLink(
-            //                destination: TimeView()){
             
+            NavigationLink(destination: StartWorkout(level: "Hard", minutes: 20)){
             Text("20 MINUTES")
                 .font(.title)
                 .multilineTextAlignment(.center)
@@ -38,11 +37,11 @@ struct TimeViewHard: View {
                 .background(Color.gray)
                 .cornerRadius(10)
                 .font(.title)
-            //  }
+            }
             Spacer()
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            //                NavigationLink(
-            //                 destination: TimeView()){
+            
+            NavigationLink(destination: StartWorkout(level: "Hard", minutes: 30)){
             Text("30 MINUTES")
                 .font(.title)
                 .multilineTextAlignment(.center)
@@ -52,12 +51,11 @@ struct TimeViewHard: View {
                 .cornerRadius(10)
                 .font(.title)
             
-            // }
+            }
             Spacer()
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            //                NavigationLink(
-            //
-            //                 destination: TimeView()){
+            
+            NavigationLink(destination: StartWorkout(level: "Hard", minutes: 40)){
             Text("40 MINUTES")
                 .font(.title)
                 .multilineTextAlignment(.center)
@@ -67,14 +65,13 @@ struct TimeViewHard: View {
                 .cornerRadius(10)
                 .font(.title)
             
-            // }
+            }
             
             
             Spacer()
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            //                NavigationLink(
-            //
-            //                 destination: TimeView()){
+            
+            NavigationLink(destination: StartWorkout(level: "Hard", minutes:50)){
             Text("50 MINUTES")
                 .font(.title)
                 .multilineTextAlignment(.center)
@@ -83,8 +80,7 @@ struct TimeViewHard: View {
                 .background(Color.gray)
                 .cornerRadius(10)
                 .font(.title)
-            
-            // }
+            }
         }.padding(.bottom,200.0)
         
         .background(Image("image"))
