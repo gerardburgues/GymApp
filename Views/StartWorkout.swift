@@ -51,40 +51,40 @@ struct StartWorkout: View {
     private func fetch(){
         let _ = print("Level \(level) and minutes \(minutes)")
         if level == "Easy" && minutes == 20 {
-            self.exercises = ["Shake shoulders","Australian chin ups","Parcial Australian chin ups","Australian Pull ups","Burpees","Crunch lumbar","Running in site"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Squats", "Side planks", "Glute bridge", "Arm circles"]
         }
         else if level == "Easy" && minutes == 30 {
-            self.exercises = ["Push ups","Squat Calf-Raise","Stiff-Leg Ankle Hop","Wall Sit","Sumo Squat","Reverse Lunge","Half burpees","Hollow body tucked crunches","Isometric knee raises","Isometic push ups"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Squats", "Side planks", "Glute bridge", "Arm circles", "Mountain climber", "Plank", "Wall sit"]
         }
         else if level == "Easy" && minutes == 40 {
-            self.exercises = ["Shake shoulders","Australian chin ups","Parcial Australian chin ups","Push ups","Squat Calf-Raise","Stiff-Leg Ankle Hop","Wall Sit","Sumo Squat","Reverse Lunge","Half burpees","Hollow body tucked crunches","Isometric knee raises","Holding Knee raises"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Squats", "Side planks", "Glute bridge", "Arm circles", "Mountain climber", "Plank", "Wall sit", "Single-leg deadlift", "Single-leg deadlift weight", "Calf raise"]
         }
         else if level == "Easy" && minutes == 50 {
-            self.exercises = ["Leg raises on the floor","Mountain climbers","Planche body","Shoulder taps","Tucked hollow body hold","Short dips","Bank dips","Negative dips","Femoral curl","Isometric squat","Explosive squats","Squat Calf-Raise","Stiff-Leg Ankle Hop","Wall Sit","Sumo Squat","Reverse Lunge","Isometic push ups"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Squats", "Side planks", "Glute bridge", "Arm circles", "Mountain climber", "Plank", "Wall sit", "Single-leg deadlift", "Single-leg deadlift weight", "Calf raise", "Contralateral limb raise", "Diamond push-up", "L seat"]
         }
         else if level == "Medium" && minutes == 20 {
-            self.exercises = ["Asymmetric pull ups","Negative pull ups","Prone chin-ups","Neutral pull-ups","Supine pull-ups","Leg raises","Dragon flag"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout"]
         }
         else if level == "Medium" && minutes == 30 {
-            self.exercises = ["Hollow body hold","Knee raises with hold","Pull over","Hold tuck front lever","L sit raises","Explosive squats","Bupees","Decline push-ups","Bulgarian squat","Airborne squat",]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout", "Plank to Push-up", "Wall sit", "Heavy wall sit"]
         }
         else if level == "Medium" && minutes == 40 {
-            
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout", "Plank to Push-up", "Wall sit", "Heavy wall sit", "Single-leg deadlift", "Single-leg deadlift weight", "Calf raise"]
         }
         else if level == "Medium" && minutes == 50 {
-            
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout", "Plank to Push-up", "Wall sit", "Heavy wall sit", "Single-leg deadlift", "Single-leg deadlift weight", "Calf raise", "Contralateral limb raise", "Diamond push-up", "L seat"]
         }
         else if level == "Hard" && minutes == 20 {
-            self.exercises = ["Pseudo push-ups","Explosive bulgarian squat","Pistol squat","Hold advance planche","Muscle up","Press to hanstand","Tucked planche push-ups"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout"]
         }
         else if level == "Hard" && minutes == 30 {
-            self.exercises = ["Frog to hanstand","Free hanstand push-ups","Hold advance planche","Muscle up","Press to hanstand","Dips","Korean dips","Headbangers","Leg raises","Skin the cat raises"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout", "Plank to Push-up", "Heavy wall sit","Arm circles"]
         }
         else if level == "Hard" && minutes == 40 {
-            self.exercises = ["Diamond push-ups","Back lever pull-ups","Pseudo push-ups","Explosive bulgarian squat","Pistol squat","Front lever raises","Frog to hanstand","Free hanstand push-ups","Dips","Korean dips","Headbangers","Leg raises","Skin the cat raises"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout", "Plank to Push-up", "Heavy wall sit","Arm circles", "Single wall sit", "Pistol squat", "Diamond push-up"]
         }
         else {
-            self.exercises = ["Diamond push-ups","Back lever pull-ups","Pseudo push-ups","Explosive bulgarian squat","Pistol squat","Front lever raises","Frog to hanstand","Free hanstand push-ups","Hold advance planche","Muscle up","Press to hanstand","Tucked planche push-ups","Dips","Korean dips","Headbangers","Leg raises","Skin the cat raises"]
+            self.exercises = ["Lunges", "Pushups", "Burpees", "Side planks", "Glute bridge", "Mountain climber", "Prone walkout", "Plank to Push-up", "Heavy wall sit","Arm circles", "Single wall sit", "Pistol squat", "Diamond push-up", "L seat",  "Contralateral limb raise", "Wall sit"]
         }
     }
 }
