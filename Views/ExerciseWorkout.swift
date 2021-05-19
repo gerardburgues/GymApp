@@ -22,6 +22,8 @@ struct ExerciseWorkout: View {
     @State var timer2: Timer? = nil
     @State var timer3: Timer? = nil
     
+    @State var fetchBoolean: Bool = true
+    
     @State var index: Int = 0
     
     let exercises: [String]
@@ -148,15 +150,9 @@ struct ExerciseWorkout: View {
                     .padding(.all)
             }
             
-            let _ = print("Size \(viewModel.exerc.count)")
-            let _ = print("Exercises \(exercises)")
-            let _ = print("ViewModelExercises \(viewModel.exerc)")
-            
             if viewModel.exerc.count > 0 {
                 let ind = find(value: exercises[index], in:viewModel.exerc)
-                let _ = print("Ind \(ind)")
                 let exercise = viewModel.exerc[ind ?? 0]
-                let _ = print("Exercise \(exercise.name)")
                 Image(exercise.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -243,6 +239,7 @@ struct ExerciseWorkout: View {
                         self.stopTimer3()
                         
                         self.index += 1
+                        fetchBoolean = true;
                         
                         print("NEXT")
                     }){
@@ -352,9 +349,12 @@ struct ExerciseWorkout: View {
     }
     
     private func fetch (){
-        viewModel.fetchData()
-        startTimer1()
-        startTimer2()
+        if (fetchBoolean) {
+            viewModel.fetchData()
+            startTimer1()
+            startTimer2()
+            fetchBoolean = false;
+        }
     }
     
     func find(value searchValue: String, in array: [Exercise]) -> Int?
