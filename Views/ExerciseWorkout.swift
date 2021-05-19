@@ -9,6 +9,8 @@ import SwiftUI
 import FirebaseDatabase
 
 struct ExerciseWorkout: View {
+    @State var minutes1: Int = 0
+    @State var seconds1: Int = 0
     @State var minutes2: Int = 1
     @State var seconds2: Int = 0
     @State var minutes3: Int = 2
@@ -20,10 +22,8 @@ struct ExerciseWorkout: View {
     @State var timer2: Timer? = nil
     @State var timer3: Timer? = nil
     
-    @State var index: Int = 1
+    @State var index: Int = 0
     
-    @State var minutes1: Int
-    @State var seconds1: Int
     let exercises: [String]
     
     @ObservedObject private var viewModel = ListExerciseViewModel()
@@ -132,6 +132,9 @@ struct ExerciseWorkout: View {
                     self.stopTimer2()
                     resetTimer(x: 2)
                 }
+                else {
+                    self.startTimer3()
+                }
                 print("START")
             }){
                 Text("START")
@@ -146,9 +149,14 @@ struct ExerciseWorkout: View {
             }
             
             let _ = print("Size \(viewModel.exerc.count)")
+            let _ = print("Exercises \(exercises)")
+            let _ = print("ViewModelExercises \(viewModel.exerc)")
+            
             if viewModel.exerc.count > 0 {
                 let ind = find(value: exercises[index], in:viewModel.exerc)
+                let _ = print("Ind \(ind)")
                 let exercise = viewModel.exerc[ind ?? 0]
+                let _ = print("Exercise \(exercise.name)")
                 Image(exercise.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -212,10 +220,8 @@ struct ExerciseWorkout: View {
             HStack {
                 Spacer()
                 if index == exercises.capacity-1 {
-                    NavigationLink(destination: ContentView()){
-                        Button(action:{
-                        }){
-                            Image(systemName: "arrow.right")
+                    NavigationLink(destination: ExerciseDone()){
+                        Image(systemName: "arrow.right")
                                 .resizable()
                                 .frame(width: 40, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .aspectRatio(contentMode: .fit)
@@ -223,8 +229,6 @@ struct ExerciseWorkout: View {
                                 .background(Color.blue)
                                 .cornerRadius(10)
                                 .foregroundColor(Color.white)
-                        }
-                        .padding(.all)
                     }
                 }
                 else {
@@ -285,6 +289,7 @@ struct ExerciseWorkout: View {
                 self.seconds2 = 59
                 if self.minutes2 == 0 {
                     self.stopTimer2()
+                    self.resetTimer(x: 2)
                 }
                 else {
                     self.minutes2 = self.minutes2 - 1
@@ -367,6 +372,6 @@ struct ExerciseWorkout: View {
 
 struct ExerciseWorkout_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseWorkout(minutes1: 0, seconds1: 0,  exercises: [])
+        ExerciseWorkout(exercises: [])
     }
 }
