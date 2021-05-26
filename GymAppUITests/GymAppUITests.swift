@@ -28,6 +28,12 @@ class GymAppUITests: XCTestCase {
            app.launchArguments = ["testing"]
            app.launch()
        }
+    func test(){
+        
+        testValidLoginSuccess()
+        testListExercise()
+        testLogout()
+    }
     func testValidLoginSuccess(){
         
         let Email = app.textFields["Email"]
@@ -41,7 +47,22 @@ class GymAppUITests: XCTestCase {
 
         app.buttons["Click twice"].tap()
         app.buttons["Log in"].tap()
+        
+       
              
+        
+    }
+    func testListExercise(){
+        app.buttons["List of Exercises"].tap()
+        app.swipeUp()
+        let searchItem = app.textFields["Search ..."]
+        searchItem.tap()
+        searchItem.typeText("Plank")
+        XCTAssert(searchItem.waitForExistence(timeout: 5))
+        app.buttons["Back"].tap()
+    }
+    func testLogout(){
+        app.buttons["Log out"].tap()
         
     }
 
