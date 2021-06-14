@@ -134,7 +134,7 @@ struct ExerciseWorkout: View {
                     self.stopTimer2()
                     resetTimer(x: 2)
                 }
-                else {
+                else if timer2IsPaused && timer3IsPaused {
                     self.startTimer3()
                 }
                 print("START")
@@ -304,6 +304,7 @@ struct ExerciseWorkout: View {
                 self.seconds3 = 59
                 if self.minutes3 == 0 {
                     self.stopTimer3()
+                    self.resetTimer(x: 3)
                 }
                 else {
                     self.minutes3 = self.minutes3 - 1
